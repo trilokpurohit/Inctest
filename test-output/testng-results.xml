@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[All the side list items are displayed on the hompage. <Strong><font color=#008000>Pass</font></strong></br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-08T14:18:16Z" name="Suite" finished-at="2022-04-08T14:18:38Z" duration-ms="22053">
+    <groups>
+    </groups>
+    <test started-at="2022-04-08T14:18:16Z" name="Test" finished-at="2022-04-08T14:18:38Z" duration-ms="22053">
+      <class name="com.INC.HomeUiTest">
+        <test-method is-config="true" signature="setUpforBrowsers(org.testng.ITestContext)[pri:0, instance:com.INC.HomeUiTest@63787180]" started-at="2022-04-08T19:48:16Z" name="setUpforBrowsers" finished-at="2022-04-08T19:48:38Z" duration-ms="21856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a33b4e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpforBrowsers -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.INC.HomeUiTest@63787180]" started-at="2022-04-08T19:48:38Z" name="setUp" finished-at="2022-04-08T19:48:38Z" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.INC.HomeUiTest.testHomeUi()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@a33b4e3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=testHomeUi status=SUCCESS method=HomeUiTest.testHomeUi()[pri:0, instance:com.INC.HomeUiTest@63787180] output=Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomeUi()[pri:0, instance:com.INC.HomeUiTest@63787180]" started-at="2022-04-08T19:48:38Z" name="testHomeUi" finished-at="2022-04-08T19:48:38Z" duration-ms="155" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[All the side list items are displayed on the hompage. <Strong><font color=#008000>Pass</font></strong></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomeUi -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.INC.HomeUiTest@63787180]" started-at="2022-04-08T19:48:38Z" name="tearDown" finished-at="2022-04-08T19:48:38Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeUi status=SUCCESS method=HomeUiTest.testHomeUi()[pri:0, instance:com.INC.HomeUiTest@63787180] output=Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@a33b4e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="postConfigue()[pri:0, instance:com.INC.HomeUiTest@63787180]" started-at="2022-04-08T19:48:38Z" name="postConfigue" finished-at="2022-04-08T19:48:43Z" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfigue -->
+      </class> <!-- com.INC.HomeUiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
